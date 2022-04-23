@@ -45,6 +45,11 @@ namespace ns {
         }
       }
 
+      // invalid package name
+      if (!name.match(/^(@[\w-]+\/)?[\w-]+$/)) {
+        return [name]
+      }
+
       // full package path
       if (this.prefixes.some(prefix => name.startsWith(prefix))) {
         return [name]
