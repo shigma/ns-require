@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/ns-require?style=flat-square)](https://www.npmjs.com/package/ns-require)
 [![GitHub](https://img.shields.io/github/license/cosmotype/ns-require?style=flat-square)](https://github.com/cosmotype/ns-require/blob/master/LICENSE)
 
-Require with namespace.
+Require with Namespace.
 
 ## Basic Usage
 
@@ -32,6 +32,7 @@ const scope = ns({
   official: 'scope',
 })
 
-scope.require('foo')        // will resolve to `@scope/plugin-foo` and then `awesome-plugin-foo`
+scope.require('foo')        // will resolve to `@scope/plugin-foo`
+                            // and then `awesome-plugin-foo`
 scope.require('@foo/bar')   // will resolve to `@foo/awesome-plugin-bar`
 ```
