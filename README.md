@@ -1,9 +1,9 @@
 # ns-require
 
-[![Codecov](https://img.shields.io/codecov/c/github/cosmotype/ns-require?style=flat-square)](https://codecov.io/gh/cosmotype/ns-require)
+[![Codecov](https://img.shields.io/codecov/c/github/shigma/ns-require?style=flat-square)](https://codecov.io/gh/shigma/ns-require)
 [![downloads](https://img.shields.io/npm/dm/ns-require?style=flat-square)](https://www.npmjs.com/package/ns-require)
 [![npm](https://img.shields.io/npm/v/ns-require?style=flat-square)](https://www.npmjs.com/package/ns-require)
-[![GitHub](https://img.shields.io/github/license/cosmotype/ns-require?style=flat-square)](https://github.com/cosmotype/ns-require/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/shigma/ns-require?style=flat-square)](https://github.com/shigma/ns-require/blob/master/LICENSE)
 
 Require with Namespace.
 
